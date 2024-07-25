@@ -12,3 +12,7 @@ The `docker exec` command allows you to run commands in a running container. Her
 ```sh
 docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
 ```
+##Running a one-off command to list files in the /app directory inside the container.
+```
+docker exec my_app_container ls /app
+```
