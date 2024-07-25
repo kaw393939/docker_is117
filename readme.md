@@ -4,6 +4,6 @@ Docker Commands
 
 2. My docker command was docker commit
 
-   
-''' sh
-docker commit
+``` sh
+docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+```
